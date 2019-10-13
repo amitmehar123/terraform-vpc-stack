@@ -1,0 +1,22 @@
+variable "region" {
+  default = "us-east-2"
+}
+variable "key_name" {
+
+default = "demo-ohio"
+
+}
+variable "instance_type" {
+  default = "t2.micro"
+}
+
+variable "amis" {
+  default = {
+    us-east-2 = "ami-0d3ac0a2ea7ee3a88"
+  }
+}
+
+variable "subnet_id_pub1" {}
+variable "pub_sg_id" {}
+variable "elb_TG_arn" {}
+variable "vpc_id" {}

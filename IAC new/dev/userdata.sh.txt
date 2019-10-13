@@ -1,0 +1,5 @@
+#! /bin/bash
+sudo yum update -y
+cd /usr/java/apache-tomcat-8.5.43/bin
+sudo ./startup.sh
+ps -ef | grep tomcat
